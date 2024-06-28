@@ -2,7 +2,7 @@
 
 ## Descrição
 
-Esta é uma API RESTful para gerenciamento de funcionários, desenvolvida com Spring Boot. Ela permite realizar operações de CRUD (Criar, Ler, Atualizar, Deletar) em registros de funcionários. A aplicação usa PostgreSQL como banco de dados.
+Esta é uma API RESTful para cadastro de funcionários de uma empresa, desenvolvida com Spring Boot. Ela permite realizar operações de CRUD (Criar, Ler, Atualizar, Deletar). A aplicação usa PostgreSQL como banco de dados, mas pode ser adaptada para qualquer outro SGBD.
 
 ### Dependências Utilizadas
 
@@ -76,8 +76,6 @@ mvnw spring-boot:run
     private double salario;
     private double bonus;
 
-## Licença
-Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE.md para detalhes.
 
 ## Autor
 Leonardo Marinho - github.com/devleomarinho
